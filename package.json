@@ -1,0 +1,30 @@
+{
+  "name": "firstautotests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --ui",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "test:report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^10.5.0",
+    "@playwright/test": "^1.61.0",
+    "@types/node": "^26.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.62.0",
+    "@typescript-eslint/parser": "^8.62.0",
+    "allure-playwright": "^3.10.2",
+    "eslint": "^10.6.0",
+    "eslint-plugin-playwright": "^2.10.4",
+    "prettier": "^3.9.1"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}
